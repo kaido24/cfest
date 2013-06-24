@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 99.5%;
+}
+body {
+  font-family: arial;
+  background: #F6E9DA;
+  font-size: 15px;
+}
+a {
+  color: #87220e;
+  text-decoration: none;
+}
+ul.inline li {
+  padding: 0;
+}
+#sidebar-left a.active,
+#header nav ul li a.active-trail {
+ color:white;
+}
+h1, h2, h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #87220e;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+.cfest-bg {
+  background-image: url('../img/main_bg_2.png');
+  background-color: #9e220d;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: absolute;
+  z-index: -1;
+  top:0;
+  height: 719px;
+  width: 100%;
+}
+#container {
+  margin: 0 auto;
+  width: 1060px;
+}
+#wrapper {
+  margin:  0 auto;
+  min-height: 580px;
+  position: relative;
+}
+#top-region {
+  width: 98%;
+  padding: 10px 0;
+  float: left;
+}
+#top-region a.active {
+  color: white;
+}
+#header {
+  margin: auto;
+  padding:0 20px 36px 180px;
+  width: 860px;
+}
+#site-name a {
+  font-size: 68px;
+  color: white;
+  font-family: times;
+  text-transform: uppercase;
+}
+#header nav {
+  float: right;
+  padding-top: 40px;
+}
+
+#header nav ul {
+  list-style-type: none;
+}
+
+#header nav ul li {
+  display: inline;
+  padding-right: 10px;
+}
+
+#header nav ul li a {
+  text-decoration: none;
+  font-family: "Tahoma";
+  font-size: 17px;
+  color: #d6ae66;
+}
+
+#header nav ul li a:active,
+#header nav ul li a.active,
+#header nav ul li.active a,
+#header nav ul li a:hover {
+  color: #FFF;
+}
+
+#logo {
+
+}
+
+#sidebar-left {
+  float: left;
+  width: 170px;
+  min-height: 1px;
+  _height: 1px;
+  padding-left: 10px;
+  text-align: right;
+}
+
+#sidebar-left ul {
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+#sidebar-left ul li {
+  margin-bottom: 10px;
+}
+
+#sidebar-left ul li a {
+  font-family: Tahoma;
+  font-size: 15px;
+  color: #d6ae66;
+  text-decoration: none;
+}
+#main_content {
+  width: 870px;
+  float: left;
+  background: url('../img/wrapper_bg.jpg') no-repeat top right #FFF;
+  margin-bottom: 50px;
+  -moz-box-shadow:0px 0px 10px 2px #363131;
+  -webkit-box-shadow:0px 0px 10px 2px #363131;
+  box-shadow:0px 0px 10px 2px #363131;
+}
+.content-inner {
+  width: 560px;
+  padding: 40px;
+  min-height: 500px;
+}
+.node {
+  margin-bottom: 25px;
+}
+.field-name-field-photo .field-item {
+  float: left;
+  width: 186px;
+  margin-bottom: 5px;
+}
+.content h2 {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: #812616;
+  margin-bottom: 12px;
+}
+
+.field-name-field-subtitle {
+  font-size: 22px;
+  font-weight: bold;
+}
+.content p {
+  font-size: 14px;
+  line-height: 125%;
+  margin-bottom: 7px;
+}
+
+#footer {
+  background: #812616;
+  padding: 10px 0;
+  border-top: 1px solid #d6b9aa;
+  text-align: center;
+  float: left;
+  width: 100%;
+  color: white;
+  font-size: 0.8em;
+}
+#footer a {
+  color: #fff;
+}
+
+.view-artists.view-display-id-default ul li,
+.view-id-archive.view-display-id-page ul li,
+.view-id-news.view-display-id-default ul li,
+.view-projects.view-display-id-default ul li {
+  margin-left: 0px;
+}
+/**
+* Locale block
+*/
+#block-locale-language {
+  float: right;
+}
+#block-locale-language a {
+  color: #D6AE66;
+}
+.language-switcher-locale-url li {
+  display: inline;
+  float: left;
+  margin-right: 5px;
+}
+/**
+* Other styles
+*/
+html body.admin-menu .cfest-bg {
+  top: 29px !important;
+}
+.field-name-field-right-text-area a {
+  text-decoration: underline;
+}
+.field-name-field-duration-text {
+  color: #dcad53;
+}
+.field-name-field-ticket .field-label {
+  color: #87220E;
+  font-weight: normal;
+}
+.node-projects .group-right .field {
+  margin-bottom: 20px;
+}
+.field-name-field-ticket .field-label {
+  color:#87220E;
+}
+.node-type-artists h1  {
+  text-indent: -9999px;
+  margin: 0;
+  font-size:0.01em;
+}
