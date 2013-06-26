@@ -85,6 +85,8 @@ h3 {
   z-index: -1;
   top:0;
   height: 719px;
+  min-width: 1060px;
+  _width: 1060px;
   width: 100%;
 }
 #container {
@@ -267,7 +269,7 @@ html body.admin-menu .cfest-bg {
 .field-name-field-ticket .field-label {
   color:#87220E;
 }
-.node-type-artists h1  {
+.node-type-artists h1, .node-type-extra-pages h1, .node-type-page h1 {
   text-indent: -9999px;
   margin: 0;
   font-size:0.01em;
